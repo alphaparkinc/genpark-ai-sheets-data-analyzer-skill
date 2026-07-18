@@ -1,0 +1,30 @@
+{
+  "name": "genpark-ai-sheets-data-analyzer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Natural language CSV data analyzer and chart recommender.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "spreadsheet",
+    "csv",
+    "analysis"
+  ],
+  "inputs": {
+    "csv_header_row": {
+      "type": "string"
+    },
+    "analysis_query": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "insight_summary": {
+      "type": "string"
+    },
+    "chart_recommendation": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
